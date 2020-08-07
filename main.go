@@ -8,6 +8,6 @@ import (
 
 func main() {
 	r := router.Router()
-	fmt.Println("Starting server on port 5000...")
-	http.ListenAndServe(":5000", r)
+	fmt.Println("Starting server on port 8081...")
+	http.ListenAndServe(":8081", r)
 }
